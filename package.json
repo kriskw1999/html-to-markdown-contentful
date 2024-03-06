@@ -1,0 +1,21 @@
+{
+  "name": "html-to-rich-text-parser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "migrate-dev": "contentful space migration -e development post.js",
+    "migrate-master": "contentful space migration -e master post.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@contentful/rich-text-from-markdown": "^15.16.15",
+    "contentful": "^10.6.24",
+    "contentful-management": "^11.21.0",
+    "contentful-migration": "^4.20.1",
+    "contentful-rich-text-html-parser": "^1.5.4",
+    "lodash": "^4.17.21",
+    "turndown": "^7.1.2"
+  }
+}
